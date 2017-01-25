@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: DAKnodered123a
+  host: DAKnodered123a
+  disk_quota: 1024M
+  services:
+  - DAKnodered123a-cloudantNoSQLDB
